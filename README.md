@@ -18,10 +18,10 @@ To improve interoperability IPTC has defined a set of controlled vocabularies --
 branded as NewsCodes --for the use with NewsML-G2 by anybody and a corresponding
 Catalog file. This file also includes linked non-IPTC vocabularies.
 
-The current version is 33, published in July 2019.
+The current version is 34, published in September 2019.
 
 The file is available from the URL:
-http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_33.xml
+http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_34.xml
 
 ## IPTC's Controlled Vocabulary Catalog for SportsML-G2
 
