@@ -15,13 +15,14 @@ unambiguous identifier for a controlled vocabulary taking the format of a UR
 -- to an alias-string to be used with the QCodes in NewsML-G2 items.
 
 To improve interoperability IPTC has defined a set of controlled vocabularies --
-branded as NewsCodes --for the use with NewsML-G2 by anybody and a corresponding
-Catalog file. This file also includes linked non-IPTC vocabularies.
+branded as NewsCodes -- for use with NewsML-G2 by anybody using a corresponding
+Catalog file. This file also includes non-IPTC vocabularies, given URIs starting
+with `http://cvx.iptc.org`.
 
-The current version is 34, published in September 2019.
+The current version is 35, published in December 2019.
 
 The file is available from the URL:
-http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_34.xml
+http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_35.xml
 
 ## IPTC's Controlled Vocabulary Catalog for SportsML-G2
 
