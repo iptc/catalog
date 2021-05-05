@@ -19,10 +19,10 @@ branded as NewsCodes -- for use with NewsML-G2 by anybody using a corresponding
 Catalog file. This file also includes non-IPTC vocabularies, given URIs starting
 with `http://cvx.iptc.org`.
 
-The current version is 35, published in December 2019.
+The current version is 36, published in May 2021.
 
 The file is available from the URL:
-http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_35.xml
+http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_36.xml
 
 ## IPTC's Controlled Vocabulary Catalog for SportsML-G2
 
