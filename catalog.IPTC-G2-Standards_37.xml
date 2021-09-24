@@ -587,7 +587,7 @@
         <name xml:lang="en-GB">ISO currency codes - ISO 4217 - numeric codes</name>
         <note xml:lang="en-GB">This vocabulary is owned by ISO - www.iso.ch</note>
     </scheme>
-    <scheme alias="parasport" uri="http://cvx.iptc.org/parasport/">
+    <scheme alias="parasport" uri="http://cvx.iptc.org/parasport/" authority="https://www.paralympic.org/">
         <definition xml:lang="en-GB">Classification of sports is individually governed by each International Federation in the Paralympic Movement, within the framework of the IPC Classification Code. Based on that for each sport one to many classes may be defined.</definition>
         <name xml:lang="en-GB">Paralympic sports</name>
         <note xml:lang="en-GB">The codes are owned by the International Paralympic Committee (IPC)</note>
