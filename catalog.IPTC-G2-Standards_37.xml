@@ -57,6 +57,7 @@
                     retired: infosourcerole, contributorrole
     v37 2021-09-17: added authorities to cvx.iptc.org vocabularies where possible
                     Re-instated parasport which was lost in v30
+                    added: figi
 -->
 <catalog xmlns="http://iptc.org/std/nar/2006-10-01/" additionalInfo="http://www.iptc.org/goto?G2cataloginfo">
     <scheme alias="altidrole" uri="http://cv.iptc.org/newscodes/altidrole/" authority="https://iptc.org/" modified="2019-09-13T12:00:00+00:00">
@@ -545,6 +546,11 @@
         <definition xml:lang="en-GB">The CUSIP is the National Securities Identification Number for products issued from both the United States and Canada.</definition>
         <name xml:lang="en-GB">Committee on Uniform Security Identification Procedures</name>
         <note xml:lang="en-GB">The codes are owned by the American Bankers Association, and operated by S&amp;P Capital IQ.</note>
+    </scheme>
+    <scheme alias="figi" uri="http://cvx.iptc.org/figi/" authority="https://www.openfigi.com/" modified="2021-09-17T12:00:00+00:00">
+        <definition xml:lang="en-GB">The FIGI is a Financial Instrument Identification Framework designed to enable effective and scalable data management within organisations.</definition>
+        <name xml:lang="en-GB">Financial Instrument Global Identifier</name>
+        <note xml:lang="en-GB">The codes are owned by the Object Management Group (OMG), and operated by openFIGI. The format of the codes is owned by Object Management Group (OMG)https://www.omg.org</note>
     </scheme>
     <scheme alias="gics" uri="http://cvx.iptc.org/gics/" authority="https://www.msci.com/" modified="2021-09-17T12:00:00+00:00">
         <definition xml:lang="en-GB">The GICS classifications aim to enhance the investment research and asset management process for financial professionals worldwide. It is the result of numerous discussions with asset owners, portfolio managers and investment analysts around the world and is designed to respond to the global financial community's need for an accurate, complete and standard industry definition.</definition>
