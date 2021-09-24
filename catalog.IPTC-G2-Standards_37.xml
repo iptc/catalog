@@ -520,22 +520,22 @@
     <scheme alias="a1312cat" uri="http://cvx.iptc.org/anpa1312-category/" modified="2011-12-15T12:00:00+00:00">
         <definition xml:lang="en-GB">The category code of the story may be any of the single alpha characters from the vocabulary. (ANPA 1312 specs, section J)</definition>
         <name xml:lang="en-GB">ANPA 1312 Category Codes</name>
-        <note xml:lang="en-GB">This vocabulary is owned by NAA - www.naa.org</note>
+        <note xml:lang="en-GB">Body owning this CV: This vocabulary was previously owned by NAA</note>
     </scheme>
     <scheme alias="a1312prio" uri="http://cvx.iptc.org/anpa1312-priority/" modified="2011-12-15T12:00:00+00:00">
         <definition xml:lang="en-GB">The priority of a transmission is designated by any of the single alpha characters from the vocabulary.  (ANPA 1312 specs, section H)</definition>
         <name xml:lang="en-GB">ANPA 1312 Priority Codes</name>
-        <note xml:lang="en-GB">The vocabulary is owned by NAA - www.naa.org</note>
+        <note xml:lang="en-GB">Body owning this CV: This vocabulary was previously owned by NAA</note>
     </scheme>
     <scheme alias="a1312svc" uri="http://cvx.iptc.org/anpa1312-servicelevel/" modified="2011-12-15T12:00:00+00:00">
         <definition xml:lang="en-GB">The wire designator code will be an upper- or lowercase single alpha character that identifies the basic nature of the service. (ANPA 1312 specs, section B)</definition>
         <name xml:lang="en-GB">ANPA 1312 Service Level Codes</name>
-        <note xml:lang="en-GB">The vocabulary is owned by NAA - www.naa.org</note>
+        <note xml:lang="en-GB">Body owning this CV: This vocabulary was previously owned by NAA</note>
     </scheme>
     <scheme alias="a1312vers" uri="http://cvx.iptc.org/anpa1312-version/" modified="2011-12-15T12:00:00+00:00">
         <definition xml:lang="en-GB">The information in this field is designed to enable newspaper systems to distinguish new leads, inserts, corrections and adds, so that the process of automatically assembling separately transmitted portions of a story is not limited to putting the latest material at the bottom of the file. (ANPA 1312 specs, section O)</definition>
         <name xml:lang="en-GB">ANPA 1312 Version Codes</name>
-        <note xml:lang="en-GB">The vocabulary is owned by NAA - www.naa.org</note>
+        <note xml:lang="en-GB">Body owning this CV: This vocabulary was previously owned by NAA</note>
     </scheme>
     <scheme alias="bcp47" uri="http://cvx.iptc.org/bcp47/" authority="https://www.ietf.org/" modified="2021-09-17T12:00:00+00:00">
         <definition xml:lang="en-GB">Language tags are used to help identify languages, whether spoken, written, signed, or otherwise signaled, for the purpose of communication. </definition>
@@ -545,68 +545,73 @@
     <scheme alias="cusip" uri="http://cvx.iptc.org/cusip/" authority="https://www.cusip.com/" modified="2021-09-17T12:00:00+00:00">
         <definition xml:lang="en-GB">The CUSIP is the National Securities Identification Number for products issued from both the United States and Canada.</definition>
         <name xml:lang="en-GB">Committee on Uniform Security Identification Procedures</name>
-        <note xml:lang="en-GB">The codes are owned by the American Bankers Association, and operated by S&amp;P Capital IQ.</note>
+        <note xml:lang="en-GB">Body owning this CV: Owned by the American Bankers Association, and operated by S&P Capital IQ.</note>
+        <note xml:lang="en-GB">Body owning the format of the codes: CUSIP Global Services (CGS) - www.cusip.com/</note>
     </scheme>
     <scheme alias="figi" uri="http://cvx.iptc.org/figi/" authority="https://www.openfigi.com/" modified="2021-09-17T12:00:00+00:00">
         <definition xml:lang="en-GB">The FIGI is a Financial Instrument Identification Framework designed to enable effective and scalable data management within organisations.</definition>
         <name xml:lang="en-GB">Financial Instrument Global Identifier</name>
-        <note xml:lang="en-GB">The codes are owned by the Object Management Group (OMG), and operated by openFIGI. The format of the codes is owned by Object Management Group (OMG)https://www.omg.org</note>
+        <note xml:lang="en-GB">Body owning this CV: Owned by the Object Management Group (OMG), and operated by openFIGI - www.openfigi.com</note>
+        <note xml:lang="en-GB">Body owning the format of the codes: Object Management Group (OMG) - www.omg.org</note>
     </scheme>
     <scheme alias="gics" uri="http://cvx.iptc.org/gics/" authority="https://www.msci.com/" modified="2021-09-17T12:00:00+00:00">
         <definition xml:lang="en-GB">The GICS classifications aim to enhance the investment research and asset management process for financial professionals worldwide. It is the result of numerous discussions with asset owners, portfolio managers and investment analysts around the world and is designed to respond to the global financial community's need for an accurate, complete and standard industry definition.</definition>
         <name xml:lang="en-GB">GICS - Global Industry Categorisation Standard</name>
         <note xml:lang="en-GB">Body owning this CV: GICS was developed by MSCI and Standard &amp; Poor’s, and is maintained by MSCI.</note>
+        <note xml:lang="en-GB">Body owning the format of the codes: MSCI Products - GICS: https://www.msci.com/our-solutions/indexes/gics</note>
     </scheme>
     <scheme alias="isin" uri="http://cvx.iptc.org/isin/" modified="2021-09-17T12:00:00+00:00">
         <definition xml:lang="en-GB">Security numbers based on the ISO 6166 standard.</definition>
         <name xml:lang="en-GB">ISIN (International Securities Identifying Number)</name>
-        <note xml:lang="en-GB">The ISIN structure is governed by ISO standard 6166. Codes are issued by the relevant National Numbering Agency (NNA) in each country.</note>
+        <note xml:lang="en-GB">Body owning this CV: Not a single body, by the specifications of the ISIN the NSINs (National Securities Identifying Number) is assigned by a local national body for each country.</note>
+        <note xml:lang="en-GB">Body owning the format of the ISIN codes: ISO - International Organization for Standardization - www.iso.ch
     </scheme>
     <scheme alias="mic" uri="http://cvx.iptc.org/iso10383-mic/" authority="https://www.iso.org/" modified="2021-09-17T12:00:00+00:00">
         <definition xml:lang="en-GB">This International Standard specifies the structure for a three-letter alphabetic code and an equivalent three-digit numeric code for the representation of currencies and funds. For those currencies having minor units, it also shows the decimal relationship between such units and the currency itself.</definition>
-        <name xml:lang="en-GB">ISO Market Identifer Codes (MIC) -ISO 10383</name>
-        <note xml:lang="en-GB">This vocabulary is owned by ISO (www.iso.org)</note>
+        <name xml:lang="en-GB">ISO Market Identifer Codes (MIC) - ISO 10383</name>
+        <note xml:lang="en-GB">Body owning this CV: ISO - International Organization for Standardization - www.iso.org</note>
     </scheme>
     <scheme alias="iso3166-1a2" uri="http://cvx.iptc.org/iso3166-1a2/" authority="https://www.iso.org/" modified="2021-09-17T12:00:00+00:00">
         <definition xml:lang="en-GB">Codes for the representation of names of countries and their subdivisions -- Part 1: Country codes. The short country names from ISO 3166-1 and the alpha-2 codes are made available by ISO at no charge for internal use and non-commercial purposes.</definition>
         <name xml:lang="en-GB">ISO 2-letter country name codes - ISO 3166-1 alpha-2</name>
-        <note xml:lang="en-GB">This vocabulary is owned by ISO - www.iso.ch</note>
+        <note xml:lang="en-GB">Body owning this CV: ISO - International Organization for Standardization - www.iso.org</note>
     </scheme>
     <scheme alias="iso3166-1a3" uri="http://cvx.iptc.org/iso3166-1a3/" authority="https://www.iso.org/" modified="2021-09-17T12:00:00+00:00">
         <definition xml:lang="en-GB">Codes for the representation of names of countries and their subdivisions -- Part 1: Country codes. The short country names from ISO 3166-1 and the alpha-2 codes are made available by ISO at no charge for internal use and non-commercial purposes.</definition>
         <name xml:lang="en-GB">ISO 3-letter country name codes - ISO 3166-1 alpha-3</name>
-        <note xml:lang="en-GB">This vocabulary is owned by ISO - www.iso.ch</note>
+        <note xml:lang="en-GB">Body owning this CV: ISO - International Organization for Standardization - www.iso.org</note>
     </scheme>
     <scheme alias="iso4217a" uri="http://cvx.iptc.org/iso4217a/" authority="https://www.iso.org/" modified="2021-09-17T12:00:00+00:00">
         <definition xml:lang="en-GB">This International Standard specifies the structure for a three-letter alphabetic code and an equivalent three-digit numeric code for the representation of currencies and funds. For those currencies having minor units, it also shows the decimal relationship between such units and the currency itself.</definition>
         <name xml:lang="en-GB">ISO currency codes - ISO 4217 - alpha codes</name>
-        <note xml:lang="en-GB">The vocabulary is owned by ISO - www.iso.ch</note>
+        <note xml:lang="en-GB">Body owning this CV: ISO - International Organization for Standardization - www.iso.org</note>
     </scheme>
     <scheme alias="iso4217n" uri="http://cvx.iptc.org/iso4217n/" authority="https://www.iso.org/" modified="2021-09-17T12:00:00+00:00">
         <definition xml:lang="en-GB">This International Standard specifies the structure for a three-letter alphabetic code and an equivalent three-digit numeric code for the representation of currencies and funds. For those currencies having minor units, it also shows the decimal relationship between such units and the currency itself.</definition>
         <name xml:lang="en-GB">ISO currency codes - ISO 4217 - numeric codes</name>
-        <note xml:lang="en-GB">This vocabulary is owned by ISO - www.iso.ch</note>
+        <note xml:lang="en-GB">Body owning this CV: ISO - International Organization for Standardization - www.iso.org</note>
     </scheme>
     <scheme alias="parasport" uri="http://cvx.iptc.org/parasport/" authority="https://www.paralympic.org/">
         <definition xml:lang="en-GB">Classification of sports is individually governed by each International Federation in the Paralympic Movement, within the framework of the IPC Classification Code. Based on that for each sport one to many classes may be defined.</definition>
         <name xml:lang="en-GB">Paralympic sports</name>
-        <note xml:lang="en-GB">The codes are owned by the International Paralympic Committee (IPC)</note>
+        <note xml:lang="en-GB">Body owning this CV: International Paralympic Committee (IPC) - www.paralympic.org</note>
     </scheme>
     <scheme alias="secst" uri="http://cvx.iptc.org/secst/" authority="https://www.sec.gov/" modified="2021-09-17T12:00:00+00:00">
         <definition xml:lang="en-GB">The SEC Submission Type defines the specific submission type, and implied form specification, associated with filing a document to the U.S. SEC EDGAR database.
 </definition>
         <name xml:lang="en-GB">SEC Submission Type</name>
-        <note xml:lang="en-GB">Body owning this CV: U.S. Securities and Exchange Commission Submission / Body owning the format of the codes: U.S. Securities and Exchange Commission Submission.</note>
+        <note xml:lang="en-GB">Body owning this CV: U.S. Securities and Exchange Commission - www.sec.gov</note>
+        <note xml:lang="en-GB">Body owning the format of the codes: U.S. Securities and Exchange Commission - www.sec.gov</note>
     </scheme>
     <scheme alias="sedol" uri="http://cvx.iptc.org/sedol/" authority="https://www.londonstockexchange.com/" modified="2021-09-10T12:00:00+00:00">
         <definition xml:lang="en-GB">A SEDOL is a Country-level Identifier issued across all asset classes in all jurisdictions globally.</definition>
         <name xml:lang="en-GB">Stock Exchange Daily Official List</name>
-        <note xml:lang="en-GB">Body owning this CV: The London Stock Exchange. https://www.londonstockexchange.com/</note>
+        <note xml:lang="en-GB">Body owning this CV: The London Stock Exchange - www.londonstockexchange.com</note>
     </scheme>
     <scheme alias="tidm" uri="http://cvx.iptc.org/tidm/" authority="https://www.londonstockexchange.com/" modified="2021-09-10T12:00:00+00:00">
         <definition xml:lang="en-GB">A TIDM identifies a security listed on the London Stock Exchange.</definition>
         <name xml:lang="en-GB">Tradable Instrument Display Mnemonics</name>
-        <note xml:lang="en-GB">The codes are owned by the London Stock Exchange.</note>
+        <note xml:lang="en-GB">Body owning this CV: The London Stock Exchange - www.londonstockexchange.com</note>
     </scheme>
     <scheme alias="dbpedia" uri="http://dbpedia.org/resource/" authority="https://www.dbpedia.org/" modified="2021-09-17T12:00:00+00:00">
         <definition xml:lang="en-GB">Entities, categories or other resources from DBpedia. DBpedia is a crowd-sourced community effort to extract structured information from Wikipedia and make this information available on the Web. Find more at http://dbpedia.org</definition>
@@ -648,7 +653,7 @@
     </scheme>
     <scheme alias="skos" uri="http://www.w3.org/2004/02/skos/core#" authority="https://www.w3.org/" modified="2021-09-17T12:00:00+00:00">
         <name xml:lang="en-GB">W3C SKOS namespace</name>
-        <note xml:lang="en-GB">This vocabulary is owned by W3C - www.w3.org</note>
+        <note xml:lang="en-GB">Body owning this vocabulary: W3C - www.w3.org</note>
     </scheme>
     <scheme alias="wikidata" uri="http://www.wikidata.org/entity/"  authority="https://wikimediafoundation.org/" modified="2021-09-17T12:00:00+00:00">
         <definition xml:lang="en-GB">Wikidata is a free  database acting as central storage for structured data about Wikipedia and other Wikimedia sister projects like Wikivoyage, Wikisource, and others.</definition>
