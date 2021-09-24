@@ -86,8 +86,7 @@
         <note xml:lang="en-GB">Many of these encoders/decoders are controlled by international standards.</note>
     </scheme>
     <scheme alias="catinat" uri="http://cv.iptc.org/newscodes/catinature/" authority="https://iptc.org/" modified="2019-09-13T12:00:00+00:00">
-        <definition xml:lang="en-GB">Indicates the nature of the content of a Catalog Item.
-</definition>
+        <definition xml:lang="en-GB">Indicates the nature of the content of a Catalog Item.</definition>
         <name xml:lang="en-GB">Nature of a Catalog Item</name>
         <note xml:lang="en-GB">This vocabulary applies only to NewsML-G2 items.</note>
     </scheme>
@@ -113,10 +112,10 @@
         <definition xml:lang="en-GB">Indicates the communication technology used for this part of the contact info.</definition>
         <name xml:lang="en-GB">Communication Technology</name>
     </scheme>
-  <scheme alias="cptdefrole" uri="http://cv.iptc.org/newscodes/conceptdefinitionrole" authority="https://iptc.org/" modified="2019-09-13T12:00:00+00:00">
-    <definition xml:lang="en-GB">Role of a definition of a concept.</definition>
-    <name xml:lang="en-GB">Concept Definition Role</name>
-  </scheme>
+    <scheme alias="cptdefrole" uri="http://cv.iptc.org/newscodes/conceptdefinitionrole" authority="https://iptc.org/" modified="2019-09-13T12:00:00+00:00">
+        <definition xml:lang="en-GB">Role of a definition of a concept.</definition>
+        <name xml:lang="en-GB">Concept Definition Role</name>
+    </scheme>
     <scheme alias="cptnoterole" uri="http://cv.iptc.org/newscodes/conceptnoterole/" authority="https://iptc.org/" modified="2019-09-13T12:00:00+00:00">
         <definition xml:lang="en-GB">Role of a note about a concept.</definition>
         <name xml:lang="en-GB">Concept Note Role</name>
@@ -164,10 +163,10 @@
         <definition xml:lang="en-GB">Indicates the unit used for measuring a dimension of content.</definition>
         <name xml:lang="en-GB">Dimension Unit</name>
     </scheme>
-  <scheme alias="ednoterole" uri="http://cv.iptc.org/newscodes/ednoterole" authority="https://iptc.org/" modified="2019-09-13T12:00:00+00:00">
-    <definition xml:lang="en-GB">Indicates the role of an editorial note</definition>
-    <name xml:lang="en-GB">Editorial Note Role</name>
-  </scheme>
+    <scheme alias="ednoterole" uri="http://cv.iptc.org/newscodes/ednoterole" authority="https://iptc.org/" modified="2019-09-13T12:00:00+00:00">
+        <definition xml:lang="en-GB">Indicates the role of an editorial note</definition>
+        <name xml:lang="en-GB">Editorial Note Role</name>
+    </scheme>
     <scheme alias="dummy" uri="http://cv.iptc.org/newscodes/dummy/" authority="https://iptc.org/" modified="2019-09-13T12:00:00+00:00"/>
     <scheme alias="erol" uri="http://cv.iptc.org/newscodes/edrole/" authority="https://iptc.org/" modified="2019-09-13T12:00:00+00:00">
         <definition xml:lang="en-GB">Indicates the role this item takes in an editorial workflow.</definition>
@@ -655,7 +654,7 @@
         <name xml:lang="en-GB">W3C SKOS namespace</name>
         <note xml:lang="en-GB">Body owning this vocabulary: W3C - www.w3.org</note>
     </scheme>
-    <scheme alias="wikidata" uri="http://www.wikidata.org/entity/"  authority="https://wikimediafoundation.org/" modified="2021-09-17T12:00:00+00:00">
+    <scheme alias="wikidata" uri="http://www.wikidata.org/entity/" authority="https://wikimediafoundation.org/" modified="2021-09-17T12:00:00+00:00">
         <definition xml:lang="en-GB">Wikidata is a free  database acting as central storage for structured data about Wikipedia and other Wikimedia sister projects like Wikivoyage, Wikisource, and others.</definition>
         <name xml:lang="en-GB">Wikidata/Wikipedia resource</name>
     </scheme>
