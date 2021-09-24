@@ -545,7 +545,7 @@
     <scheme alias="cusip" uri="http://cvx.iptc.org/cusip/" authority="https://www.cusip.com/" modified="2021-09-17T12:00:00+00:00">
         <definition xml:lang="en-GB">The CUSIP is the National Securities Identification Number for products issued from both the United States and Canada.</definition>
         <name xml:lang="en-GB">Committee on Uniform Security Identification Procedures</name>
-        <note xml:lang="en-GB">Body owning this CV: Owned by the American Bankers Association, and operated by S&P Capital IQ.</note>
+        <note xml:lang="en-GB">Body owning this CV: Owned by the American Bankers Association, and operated by S&amp;P Capital IQ.</note>
         <note xml:lang="en-GB">Body owning the format of the codes: CUSIP Global Services (CGS) - www.cusip.com/</note>
     </scheme>
     <scheme alias="figi" uri="http://cvx.iptc.org/figi/" authority="https://www.openfigi.com/" modified="2021-09-17T12:00:00+00:00">
@@ -564,7 +564,7 @@
         <definition xml:lang="en-GB">Security numbers based on the ISO 6166 standard.</definition>
         <name xml:lang="en-GB">ISIN (International Securities Identifying Number)</name>
         <note xml:lang="en-GB">Body owning this CV: Not a single body, by the specifications of the ISIN the NSINs (National Securities Identifying Number) is assigned by a local national body for each country.</note>
-        <note xml:lang="en-GB">Body owning the format of the ISIN codes: ISO - International Organization for Standardization - www.iso.ch
+        <note xml:lang="en-GB">Body owning the format of the ISIN codes: ISO - International Organization for Standardization - www.iso.ch</note>
     </scheme>
     <scheme alias="mic" uri="http://cvx.iptc.org/iso10383-mic/" authority="https://www.iso.org/" modified="2021-09-17T12:00:00+00:00">
         <definition xml:lang="en-GB">This International Standard specifies the structure for a three-letter alphabetic code and an equivalent three-digit numeric code for the representation of currencies and funds. For those currencies having minor units, it also shows the decimal relationship between such units and the currency itself.</definition>
