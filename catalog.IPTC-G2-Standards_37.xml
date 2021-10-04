@@ -563,7 +563,7 @@
         <definition xml:lang="en-GB">Security numbers based on the ISO 6166 standard.</definition>
         <name xml:lang="en-GB">ISIN (International Securities Identifying Number)</name>
         <note xml:lang="en-GB">Body owning this CV: Not a single body, by the specifications of the ISIN the NSINs (National Securities Identifying Number) is assigned by a local national body for each country.</note>
-        <note xml:lang="en-GB">Body owning the format of the ISIN codes: ISO - International Organization for Standardization - www.iso.ch</note>
+        <note xml:lang="en-GB">Body owning the format of the ISIN codes: ISO - International Organization for Standardization - www.iso.org</note>
     </scheme>
     <scheme alias="mic" uri="http://cvx.iptc.org/iso10383-mic/" authority="https://www.iso.org/" modified="2021-09-24T12:00:00+00:00">
         <definition xml:lang="en-GB">This International Standard specifies the structure for a three-letter alphabetic code and an equivalent three-digit numeric code for the representation of currencies and funds. For those currencies having minor units, it also shows the decimal relationship between such units and the currency itself.</definition>
