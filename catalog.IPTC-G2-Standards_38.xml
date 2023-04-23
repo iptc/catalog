@@ -58,7 +58,9 @@
     v37 2021-09-24: added authorities to cvx.iptc.org vocabularies where possible
                     Re-instated parasport which was lost in v30
                     added: figi
-    v38 2023-05-17: TBD
+    v38 2023-05-17: added new CV authoritystatus
+                    added authoritystatus to isin, a1312cat, a1312prio, a1312svc, a1312vers
+                    update to note for fmt removing reference to NewsML 1
 -->
 <catalog xmlns="http://iptc.org/std/nar/2006-10-01/" additionalInfo="http://www.iptc.org/goto?G2cataloginfo">
     <scheme alias="altidrole" uri="http://cv.iptc.org/newscodes/altidrole/" authority="https://iptc.org/" modified="2019-09-13T12:00:00+00:00">
@@ -85,6 +87,10 @@
         <definition xml:lang="en-GB">Indicates a name of an audio-encoder/decoder. </definition>
         <name xml:lang="en-GB">Audiocodec</name>
         <note xml:lang="en-GB">Many of these encoders/decoders are controlled by international standards.</note>
+    </scheme>
+    <scheme alias="authoritystatus" uri="http://cv.iptc.org/newscodes/authoritystatus/" authority="https://iptc.org/" modified="2023-05-17T12:00:00+00:00">
+        <name xml:lang="en-GB">Authority Status</name>
+        <definition xml:lang="en-GB">Describes the status of the authority managing a resource such as a scheme or a catalog.</definition>
     </scheme>
     <scheme alias="catinat" uri="http://cv.iptc.org/newscodes/catinature/" authority="https://iptc.org/" modified="2019-09-13T12:00:00+00:00">
         <definition xml:lang="en-GB">Indicates the nature of the content of a Catalog Item.</definition>
@@ -214,7 +220,6 @@
     <scheme alias="frmt" uri="http://cv.iptc.org/newscodes/format/" authority="https://iptc.org/" modified="2019-09-13T12:00:00+00:00">
         <definition xml:lang="en-GB">Indicates the technical format of content.</definition>
         <name xml:lang="en-GB">Format</name>
-        <note xml:lang="en-GB">This vocabulary applies only to NewsML 1.x items. </note>
     </scheme>
     <scheme alias="gen" uri="http://cv.iptc.org/newscodes/generic/" authority="https://iptc.org/" modified="2019-09-13T12:00:00+00:00">
         <definition xml:lang="en-GB">Generic concepts which could be applied to virtually all properties</definition>
@@ -457,7 +462,7 @@
     <scheme alias="subj" uri="http://cv.iptc.org/newscodes/subjectcode/" authority="https://iptc.org/" modified="2019-09-13T12:00:00+00:00">
         <definition xml:lang="en-GB">Indicates a subject of an item.</definition>
         <name xml:lang="en-GB">Subject Code</name>
-        <note xml:lang="en-GB">The Subject Codes is IPTC 's original subject taxonomy, with a focus on text. It consists of about 1400 terms organized into 3 levels. </note>
+        <note xml:lang="en-GB">The Subject Codes is IPTC's original subject taxonomy, with a focus on text. It consists of about 1400 terms organized into 3 levels. Note that Subject Code is now deprecated. IPTC recommends that users instead use the Media Topic vocabulary, which is regularly reviewed and updated.</note>
     </scheme>
     <scheme alias="squ" uri="http://cv.iptc.org/newscodes/subjectqualifier/" authority="https://iptc.org/" modified="2019-09-13T12:00:00+00:00">
         <definition xml:lang="en-GB">Indicates a narrower attribute-like context for a Subject Code,  e.g. for sports: the gender of participants, indoor/outdoor competition etc.</definition>
@@ -517,22 +522,22 @@
         <name xml:lang="en-GB">World Region</name>
     </scheme>
     <!-- schemes external to IPTC -->
-    <scheme alias="a1312cat" uri="http://cvx.iptc.org/anpa1312-category/" modified="2021-09-24T12:00:00+00:00">
+    <scheme alias="a1312cat" uri="http://cvx.iptc.org/anpa1312-category/" authoritystatus="authoritystatus:nocurrentauthority" modified="2021-09-24T12:00:00+00:00">
         <definition xml:lang="en-GB">The category code of the story may be any of the single alpha characters from the vocabulary. (ANPA 1312 specs, section J)</definition>
         <name xml:lang="en-GB">ANPA 1312 Category Codes</name>
         <note xml:lang="en-GB">Body owning this CV: This vocabulary was previously owned by NAA</note>
     </scheme>
-    <scheme alias="a1312prio" uri="http://cvx.iptc.org/anpa1312-priority/" modified="2021-09-24T12:00:00+00:00">
+    <scheme alias="a1312prio" uri="http://cvx.iptc.org/anpa1312-priority/" authoritystatus="authoritystatus:nocurrentauthority" modified="2021-09-24T12:00:00+00:00">
         <definition xml:lang="en-GB">The priority of a transmission is designated by any of the single alpha characters from the vocabulary.  (ANPA 1312 specs, section H)</definition>
         <name xml:lang="en-GB">ANPA 1312 Priority Codes</name>
         <note xml:lang="en-GB">Body owning this CV: This vocabulary was previously owned by NAA</note>
     </scheme>
-    <scheme alias="a1312svc" uri="http://cvx.iptc.org/anpa1312-servicelevel/" modified="2021-09-24T12:00:00+00:00">
+    <scheme alias="a1312svc" uri="http://cvx.iptc.org/anpa1312-servicelevel/" authoritystatus="authoritystatus:nocurrentauthority" modified="2021-09-24T12:00:00+00:00">
         <definition xml:lang="en-GB">The wire designator code will be an upper- or lowercase single alpha character that identifies the basic nature of the service. (ANPA 1312 specs, section B)</definition>
         <name xml:lang="en-GB">ANPA 1312 Service Level Codes</name>
         <note xml:lang="en-GB">Body owning this CV: This vocabulary was previously owned by NAA</note>
     </scheme>
-    <scheme alias="a1312vers" uri="http://cvx.iptc.org/anpa1312-version/" modified="2021-09-24T12:00:00+00:00">
+    <scheme alias="a1312vers" uri="http://cvx.iptc.org/anpa1312-version/" authoritystatus="authoritystatus:nocurrentauthority" modified="2021-09-24T12:00:00+00:00">
         <definition xml:lang="en-GB">The information in this field is designed to enable newspaper systems to distinguish new leads, inserts, corrections and adds, so that the process of automatically assembling separately transmitted portions of a story is not limited to putting the latest material at the bottom of the file. (ANPA 1312 specs, section O)</definition>
         <name xml:lang="en-GB">ANPA 1312 Version Codes</name>
         <note xml:lang="en-GB">Body owning this CV: This vocabulary was previously owned by NAA</note>
@@ -560,7 +565,7 @@
         <note xml:lang="en-GB">Body owning this CV: GICS was developed by MSCI and Standard &amp; Poor’s, and is maintained by MSCI.</note>
         <note xml:lang="en-GB">Body owning the format of the codes: MSCI Products - GICS: https://www.msci.com/our-solutions/indexes/gics</note>
     </scheme>
-    <scheme alias="isin" uri="http://cvx.iptc.org/isin/" modified="2021-09-24T12:00:00+00:00">
+    <scheme alias="isin" uri="http://cvx.iptc.org/isin/" authoritystatus="authoritystatus:countryspecificauthority" modified="2021-09-24T12:00:00+00:00">
         <definition xml:lang="en-GB">Security numbers based on the ISO 6166 standard.</definition>
         <name xml:lang="en-GB">ISIN (International Securities Identifying Number)</name>
         <note xml:lang="en-GB">Body owning this CV: Not a single body, by the specifications of the ISIN the NSINs (National Securities Identifying Number) is assigned by a local national body for each country.</note>
@@ -607,6 +612,12 @@
         <definition xml:lang="en-GB">A SEDOL is a Country-level Identifier issued across all asset classes in all jurisdictions globally.</definition>
         <name xml:lang="en-GB">Stock Exchange Daily Official List</name>
         <note xml:lang="en-GB">Body owning this CV: The London Stock Exchange - www.londonstockexchange.com</note>
+    </scheme>
+    <scheme alias="ticker" uri="http://cvx.iptc.org/ticker/" authoritystatus="authoritystatus:nosingleauthority" modified="2023-05-17T12:00:00+00:00">
+        <definition xml:lang="en-GB">A set of alphanumeric characters allocated by a trading venue to a listed security.</definition>
+        <name xml:lang="en-GB">Ticker</name>
+        <note xml:lang="en-GB">Body owning this CV: not applicable</note>
+        <note xml:lang="en-GB">Users should not assume that a ticker symbol will uniquely identify an organisation. For example some ticker symbols identify stock indexes, or A- and B-class shares of a company, or listings on multiple exchanges.</note>
     </scheme>
     <scheme alias="tidm" uri="http://cvx.iptc.org/tidm/" authority="https://www.londonstockexchange.com/" modified="2021-09-10T12:00:00+00:00">
         <definition xml:lang="en-GB">A TIDM identifies a security listed on the London Stock Exchange.</definition>
