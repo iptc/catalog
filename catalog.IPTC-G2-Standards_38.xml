@@ -523,22 +523,22 @@
         <name xml:lang="en-GB">World Region</name>
     </scheme>
     <!-- schemes external to IPTC -->
-    <scheme alias="a1312cat" uri="http://cvx.iptc.org/anpa1312-category/" authoritystatus="authoritystatus:nocurrentauthority" modified="2021-09-24T12:00:00+00:00">
+    <scheme alias="a1312cat" uri="http://cvx.iptc.org/anpa1312-category/" authoritystatus="authoritystatus:nocurrentauthority" modified="2023-05-17T12:00:00+00:00">
         <definition xml:lang="en-GB">The category code of the story may be any of the single alpha characters from the vocabulary. (ANPA 1312 specs, section J)</definition>
         <name xml:lang="en-GB">ANPA 1312 Category Codes</name>
         <note xml:lang="en-GB">Body owning this CV: This vocabulary was previously owned by NAA</note>
     </scheme>
-    <scheme alias="a1312prio" uri="http://cvx.iptc.org/anpa1312-priority/" authoritystatus="authoritystatus:nocurrentauthority" modified="2021-09-24T12:00:00+00:00">
+    <scheme alias="a1312prio" uri="http://cvx.iptc.org/anpa1312-priority/" authoritystatus="authoritystatus:nocurrentauthority" modified="2023-05-17T12:00:00+00:00">
         <definition xml:lang="en-GB">The priority of a transmission is designated by any of the single alpha characters from the vocabulary.  (ANPA 1312 specs, section H)</definition>
         <name xml:lang="en-GB">ANPA 1312 Priority Codes</name>
         <note xml:lang="en-GB">Body owning this CV: This vocabulary was previously owned by NAA</note>
     </scheme>
-    <scheme alias="a1312svc" uri="http://cvx.iptc.org/anpa1312-servicelevel/" authoritystatus="authoritystatus:nocurrentauthority" modified="2021-09-24T12:00:00+00:00">
+    <scheme alias="a1312svc" uri="http://cvx.iptc.org/anpa1312-servicelevel/" authoritystatus="authoritystatus:nocurrentauthority" modified="2023-05-17T12:00:00+00:00">
         <definition xml:lang="en-GB">The wire designator code will be an upper- or lowercase single alpha character that identifies the basic nature of the service. (ANPA 1312 specs, section B)</definition>
         <name xml:lang="en-GB">ANPA 1312 Service Level Codes</name>
         <note xml:lang="en-GB">Body owning this CV: This vocabulary was previously owned by NAA</note>
     </scheme>
-    <scheme alias="a1312vers" uri="http://cvx.iptc.org/anpa1312-version/" authoritystatus="authoritystatus:nocurrentauthority" modified="2021-09-24T12:00:00+00:00">
+    <scheme alias="a1312vers" uri="http://cvx.iptc.org/anpa1312-version/" authoritystatus="authoritystatus:nocurrentauthority" modified="2023-05-17T12:00:00+00:00">
         <definition xml:lang="en-GB">The information in this field is designed to enable newspaper systems to distinguish new leads, inserts, corrections and adds, so that the process of automatically assembling separately transmitted portions of a story is not limited to putting the latest material at the bottom of the file. (ANPA 1312 specs, section O)</definition>
         <name xml:lang="en-GB">ANPA 1312 Version Codes</name>
         <note xml:lang="en-GB">Body owning this CV: This vocabulary was previously owned by NAA</note>
@@ -566,7 +566,7 @@
         <note xml:lang="en-GB">Body owning this CV: GICS was developed by MSCI and Standard &amp; Poor’s, and is maintained by MSCI.</note>
         <note xml:lang="en-GB">Body owning the format of the codes: MSCI Products - GICS: https://www.msci.com/our-solutions/indexes/gics</note>
     </scheme>
-    <scheme alias="isin" uri="http://cvx.iptc.org/isin/" authoritystatus="authoritystatus:countryspecificauthority" modified="2021-09-24T12:00:00+00:00">
+    <scheme alias="isin" uri="http://cvx.iptc.org/isin/" authoritystatus="authoritystatus:countryspecificauthority" modified="2023-05-17T12:00:00+00:00">
         <definition xml:lang="en-GB">Security numbers based on the ISO 6166 standard.</definition>
         <name xml:lang="en-GB">ISIN (International Securities Identifying Number)</name>
         <note xml:lang="en-GB">Body owning this CV: Not a single body, by the specifications of the ISIN the NSINs (National Securities Identifying Number) is assigned by a local national body for each country.</note>
