@@ -59,6 +59,7 @@
                     Re-instated parasport which was lost in v30
                     added: figi
     v38 2023-05-17: added new CV authoritystatus
+                    added CVX ticker
                     added authoritystatus to isin, a1312cat, a1312prio, a1312svc, a1312vers
                     update to note for fmt removing reference to NewsML 1
 -->
