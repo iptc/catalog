@@ -475,7 +475,7 @@
         <definition xml:lang="en-GB">Indicates the unit of time used for measuring the length of audio or video content. </definition>
         <name xml:lang="en-GB">Time Unit</name>
     </scheme>
-    <scheme alias="tone" uri="http://cv.iptc.org/newscodes/one/" authority="https://iptc.org/" modified="2023-11-24T12:00:00+00:00">
+    <scheme alias="tone" uri="http://cv.iptc.org/newscodes/tone/" authority="https://iptc.org/" modified="2023-11-24T12:00:00+00:00">
         <definition xml:lang="en-GB">Meant to convey the general character or attitude of news content.</definition>
         <name xml:lang="en-GB">Tone</name>
     </scheme>
