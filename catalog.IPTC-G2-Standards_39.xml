@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- File: http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_38.xml
-    (38 represents the version number of this file)
+<!-- File: http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_39.xml
+    (39 represents the version number of this file)
 
     This file provides a Catalog for G2-Standards as defined by the common News Architecture
     This catalog contains all currently existing IPTC maintained controlled vocabularies - branded as NewsCodes - 
@@ -11,7 +11,7 @@
     - either: copy and paste the <catalog> element from this file to the appropriate position in the item
     - or: add a <catalogRef> element to the item and apply the URL of this file (wherever it is stored)
         to the "href" attribute of the catalogRef element like: 
-        <catalogRef href="http://iptc.org/std/catalog/catalog.IPTC-G2-Standards_38.xml" />
+        <catalogRef href="http://iptc.org/std/catalog/catalog.IPTC-G2-Standards_39.xml" />
 
     This file is provided as is by the International Press Telecommunication Council, IPTC - www.iptc.org
 
