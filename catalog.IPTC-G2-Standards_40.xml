@@ -202,7 +202,7 @@
     </scheme>
     <scheme alias="eocstat" uri="http://cv.iptc.org/newscodes/eventoccurstatus/" authority="https://iptc.org/" modified="2019-09-13T12:00:00+00:00">
         <definition xml:lang="en-GB">Indicates how certain the occurrence of the event is.</definition>
-        <name xml:lang="en-GB">Event Occurence Status</name>
+        <name xml:lang="en-GB">Event Occurrence Status</name>
     </scheme>
     <scheme alias="eorol" uri="http://cv.iptc.org/newscodes/eventorganiserrole/" authority="https://iptc.org/" modified="2019-09-13T12:00:00+00:00">
         <definition xml:lang="en-GB">Indicates the role an organiser takes in the event.</definition>
