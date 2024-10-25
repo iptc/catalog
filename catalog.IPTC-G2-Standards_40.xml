@@ -681,6 +681,34 @@
         <definition xml:lang="en-GB">Topics taxonomy created to work with the Google-led Privacy Sandbox initiative to facilitate online advertising without the use of third-party cookies. Current taxonomy: https://github.com/patcg-individual-drafts/topics/blob/main/taxonomy_v2.md</definition>
         <name xml:lang="en-GB">Privacy Sandbox Topics taxonomy v2</name>
     </scheme>
+    <scheme alias="iabcontent20" uri="https://iabtechlab.com/standards/content-taxonomy/" authority="https://iabtechlab.com/" modified="2024-09-27T12:00:00+00:00">
+        <definition xml:lang="en-GB">Version 2.0 of the IAB Content Taxonomy, released in November 2017</definition>
+        <name xml:lang="en-GB">IAB Content Taxonomy 2.0</name>
+    </scheme>
+    <scheme alias="iabcontent21" uri="https://iabtechlab.com/standards/content-taxonomy/" authority="https://iabtechlab.com/" modified="2024-09-27T12:00:00+00:00">
+        <definition xml:lang="en-GB">Version 2.1 of the IAB Content Taxonomy, released in October 2020</definition>
+        <name xml:lang="en-GB">IAB Content Taxonomy 2.1</name>
+    </scheme>
+    <scheme alias="iabcontent22" uri="https://iabtechlab.com/standards/content-taxonomy/" authority="https://iabtechlab.com/" modified="2024-09-27T12:00:00+00:00">
+        <definition xml:lang="en-GB">Version 2.2 of the IAB Content Taxonomy, released in December 2020</definition>
+        <name xml:lang="en-GB">IAB Content Taxonomy 2.2</name>
+    </scheme>
+    <scheme alias="iabcontent30" uri="https://iabtechlab.com/standards/content-taxonomy/" authority="https://iabtechlab.com/" modified="2024-09-27T12:00:00+00:00">
+        <definition xml:lang="en-GB">Version 3.0 of the IAB Content Taxonomy, released in January 2024</definition>
+        <name xml:lang="en-GB">IAB Content Taxonomy 3.0</name>
+    </scheme>
+    <scheme alias="iabaudience10" uri="https://iabtechlab.com/standards/audience-taxonomy/" authority="https://iabtechlab.com/" modified="2024-09-27T12:00:00+00:00">
+        <definition xml:lang="en-GB">Version 1.0 of the IAB Audience Taxonomy, released in January 2024</definition>
+        <name xml:lang="en-GB">IAB Audience Taxonomy 1.0, URL https://iabtechlab.com/standards/audience-taxonomy/</name>
+    </scheme>
+    <scheme alias="iabadproduct10" uri="https://iabtechlab.com/standards/ad-product-taxonomy/" authority="https://iabtechlab.com/" modified="2024-09-27T12:00:00+00:00">
+        <definition xml:lang="en-GB">Version 1.0 of the IAB Ad Product Taxonomy, released in August 2023</definition>
+        <name xml:lang="en-GB">IAB Ad Product Taxonomy 1.0, URL https://iabtechlab.com/standards/ad-product-taxonomy/</name>
+    </scheme>
+    <scheme alias="iabadproduct20" uri="https://iabtechlab.com/standards/ad-product-taxonomy/" authority="https://iabtechlab.com/" modified="2024-09-27T12:00:00+00:00">
+        <definition xml:lang="en-GB">Version 2.0 of the IAB Ad Product Taxonomy, released in February 2024</definition>
+        <name xml:lang="en-GB">IAB Ad Product Taxonomy 2.0, URL https://iabtechlab.com/standards/ad-product-taxonomy/</name>
+    </scheme>
     <scheme alias="freebase" uri="http://www.freebase.com" authority="http://www.google.com/" modified="2021-09-24T12:00:00+00:00">
         <definition xml:lang="en-GB">Entities, categories or other resources from Freebase. Freebase is an open, Creative Commons Attribution (aka CC-BY) licensed collection of structured data.</definition>
         <name xml:lang="en-GB">Freebase resource</name>
