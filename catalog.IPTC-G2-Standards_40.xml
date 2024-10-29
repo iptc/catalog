@@ -63,7 +63,7 @@
                     added authoritystatus to isin, a1312cat, a1312prio, a1312svc, a1312vers
                     update to note for fmt removing reference to NewsML 1
     v39 2023-11-24: added new CV tone, new CVX CV geonameshttps
-    v40 2024-09-27: added CVX ISO 3166-2, Google Privacy Sandbox, IAB taxonomies
+    v40 2024-10-29: added CVX ISO 3166-2, Google Privacy Sandbox, IAB taxonomies
 -->
 <catalog xmlns="http://iptc.org/std/nar/2006-10-01/" additionalInfo="http://www.iptc.org/goto?G2cataloginfo">
     <scheme alias="altidrole" uri="http://cv.iptc.org/newscodes/altidrole/" authority="https://iptc.org/" modified="2019-09-13T12:00:00+00:00">
@@ -593,7 +593,7 @@
         <name xml:lang="en-GB">ISO 3-letter country name codes - ISO 3166-1 alpha-3</name>
         <note xml:lang="en-GB">Body owning this CV: ISO - International Organization for Standardization - www.iso.org</note>
     </scheme>
-    <scheme alias="iso3166-2" uri="http://cvx.iptc.org/iso3166-2/" authority="https://www.iso.org/" modified="2024-09-27T12:00:00+00:00">
+    <scheme alias="iso3166-2" uri="http://cvx.iptc.org/iso3166-2/" authority="https://www.iso.org/" modified="2024-10-29T12:00:00+00:00">
         <definition xml:lang="en-GB">Codes for the representation of names of countries and their subdivisions – Part 2: Country subdivision code. The first part is the ISO 3166-1 alpha-2 code of the country. The second part is a string of up to three alphanumeric characters identifying a subdivision of the country.</definition>
         <name xml:lang="en-GB">ISO Country subdivision codes - ISO 3166-2</name>
         <note xml:lang="en-GB">Body owning this CV: ISO - International Organization for Standardization - www.iso.org</note>
@@ -673,39 +673,39 @@
         <definition xml:lang="en-GB">A crowd-sourced geographical database which covers all countries and contains over eight million placenames that are available free of charge.</definition>
         <name xml:lang="en-GB">Geonames resource (https)</name>
     </scheme>
-    <scheme alias="googletopicsv1" uri="http://" authority="http://www.google.com/" modified="2024-09-27T12:00:00+00:00">
+    <scheme alias="googletopicsv1" uri="http://cvx.iptc.org/googletopicsv1/" authority="http://www.google.com/" modified="2024-10-29T12:00:00+00:00">
         <definition xml:lang="en-GB">Topics taxonomy created to work with the Google-led Privacy Sandbox initiative to facilitate online advertising without the use of third-party cookies. Version 1 taxonomy: https://github.com/patcg-individual-drafts/topics/blob/main/taxonomy_v1.md</definition>
         <name xml:lang="en-GB">Privacy Sandbox Topics taxonomy v1</name>
     </scheme>
-    <scheme alias="googletopicsv2" uri="http://" authority="http://www.google.com/" modified="2024-09-27T12:00:00+00:00">
+    <scheme alias="googletopicsv2" uri="http://cvx.iptc.org/googletopicsv2/" authority="http://www.google.com/" modified="2024-10-29T12:00:00+00:00">
         <definition xml:lang="en-GB">Topics taxonomy created to work with the Google-led Privacy Sandbox initiative to facilitate online advertising without the use of third-party cookies. Current taxonomy: https://github.com/patcg-individual-drafts/topics/blob/main/taxonomy_v2.md</definition>
         <name xml:lang="en-GB">Privacy Sandbox Topics taxonomy v2</name>
     </scheme>
-    <scheme alias="iabcontent20" uri="https://iabtechlab.com/standards/content-taxonomy/" authority="https://iabtechlab.com/" modified="2024-09-27T12:00:00+00:00">
+    <scheme alias="iabcontent20" uri="http://cvx.iptc.org/iabcontent20/" authority="https://iabtechlab.com/" modified="2024-10-29T12:00:00+00:00">
         <definition xml:lang="en-GB">Version 2.0 of the IAB Content Taxonomy, released in November 2017</definition>
         <name xml:lang="en-GB">IAB Content Taxonomy 2.0</name>
     </scheme>
-    <scheme alias="iabcontent21" uri="https://iabtechlab.com/standards/content-taxonomy/" authority="https://iabtechlab.com/" modified="2024-09-27T12:00:00+00:00">
+    <scheme alias="iabcontent21" uri="http://cvx.iptc.org/iabcontent21/" authority="https://iabtechlab.com/" modified="2024-10-29T12:00:00+00:00">
         <definition xml:lang="en-GB">Version 2.1 of the IAB Content Taxonomy, released in October 2020</definition>
         <name xml:lang="en-GB">IAB Content Taxonomy 2.1</name>
     </scheme>
-    <scheme alias="iabcontent22" uri="https://iabtechlab.com/standards/content-taxonomy/" authority="https://iabtechlab.com/" modified="2024-09-27T12:00:00+00:00">
+    <scheme alias="iabcontent22" uri="http://cvx.iptc.org/iabcontent22/" authority="https://iabtechlab.com/" modified="2024-10-29T12:00:00+00:00">
         <definition xml:lang="en-GB">Version 2.2 of the IAB Content Taxonomy, released in December 2020</definition>
         <name xml:lang="en-GB">IAB Content Taxonomy 2.2</name>
     </scheme>
-    <scheme alias="iabcontent30" uri="https://iabtechlab.com/standards/content-taxonomy/" authority="https://iabtechlab.com/" modified="2024-09-27T12:00:00+00:00">
+    <scheme alias="iabcontent30" uri="http://cvx.iptc.org/iabcontent30/" authority="https://iabtechlab.com/" modified="2024-10-29T12:00:00+00:00">
         <definition xml:lang="en-GB">Version 3.0 of the IAB Content Taxonomy, released in January 2024</definition>
         <name xml:lang="en-GB">IAB Content Taxonomy 3.0</name>
     </scheme>
-    <scheme alias="iabaudience10" uri="https://iabtechlab.com/standards/audience-taxonomy/" authority="https://iabtechlab.com/" modified="2024-09-27T12:00:00+00:00">
+    <scheme alias="iabaudience10" uri="http://cvx.iptc.org/iabaudience10/" authority="https://iabtechlab.com/" modified="2024-10-29T12:00:00+00:00">
         <definition xml:lang="en-GB">Version 1.0 of the IAB Audience Taxonomy, released in January 2024</definition>
         <name xml:lang="en-GB">IAB Audience Taxonomy 1.0, URL https://iabtechlab.com/standards/audience-taxonomy/</name>
     </scheme>
-    <scheme alias="iabadproduct10" uri="https://iabtechlab.com/standards/ad-product-taxonomy/" authority="https://iabtechlab.com/" modified="2024-09-27T12:00:00+00:00">
+    <scheme alias="iabadproduct10" uri="http://cvx.iptc.org/iabadproduct10/" authority="https://iabtechlab.com/" modified="2024-10-29T12:00:00+00:00">
         <definition xml:lang="en-GB">Version 1.0 of the IAB Ad Product Taxonomy, released in August 2023</definition>
         <name xml:lang="en-GB">IAB Ad Product Taxonomy 1.0, URL https://iabtechlab.com/standards/ad-product-taxonomy/</name>
     </scheme>
-    <scheme alias="iabadproduct20" uri="https://iabtechlab.com/standards/ad-product-taxonomy/" authority="https://iabtechlab.com/" modified="2024-09-27T12:00:00+00:00">
+    <scheme alias="iabadproduct20" uri="http://cvx.iptc.org/iabadproduct20/" authority="https://iabtechlab.com/" modified="2024-10-29T12:00:00+00:00">
         <definition xml:lang="en-GB">Version 2.0 of the IAB Ad Product Taxonomy, released in February 2024</definition>
         <name xml:lang="en-GB">IAB Ad Product Taxonomy 2.0, URL https://iabtechlab.com/standards/ad-product-taxonomy/</name>
     </scheme>
