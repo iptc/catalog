@@ -178,19 +178,19 @@
         <name xml:lang="en-GB">Dimension Unit</name>
     </scheme>
     <scheme alias="diqbenchmarkname" uri="http://cv.iptc.org/newscodes/diqbenchmarkname/" authority="https://iptc.org/" modified="2026-10-21T12:00:00+00:00">
-        <definition xml:lang="en-GB"></definition>
+        <definition xml:lang="en-GB">The name of the guideline or standard against which the image quality of a digital image was measured</definition>
         <name xml:lang="en-GB">Digital Image Quality Benchmark Name</name>
     </scheme>
     <scheme alias="diqevaluationsoftware" uri="http://cv.iptc.org/newscodes/diqevaluationsoftware/" authority="https://iptc.org/" modified="2026-10-21T12:00:00+00:00">
-        <definition xml:lang="en-GB"></definition>
+        <definition xml:lang="en-GB">The name of the software used to measure Digital Image Quality Performance of a digital image against the Digital Image Quality Benchmark</definition>
         <name xml:lang="en-GB">Digital Image Quality Evaluation Software</name>
     </scheme>
     <scheme alias="diqperformancelevel" uri="http://cv.iptc.org/newscodes/diqperformancelevel/" authority="https://iptc.org/" modified="2026-10-21T12:00:00+00:00">
-        <definition xml:lang="en-GB"></definition>
+        <definition xml:lang="en-GB">The achieved performance level of a digital image within the Digital Image Quality Benchmark</definition>
         <name xml:lang="en-GB">Digital Image Quality Performance Level</name>
     </scheme>
     <scheme alias="diqtargetname" uri="http://cv.iptc.org/newscodes/diqtargetname/" authority="https://iptc.org/" modified="2026-10-21T12:00:00+00:00">
-        <definition xml:lang="en-GB"></definition>
+        <definition xml:lang="en-GB">The name and the manufacturer of the physical target used to measure Digital Image Quality Performance Level of the digital image against a Digital Image Quality Benchmark</definition>
         <name xml:lang="en-GB">Digital Image Quality Target Name</name>
     </scheme>
     <scheme alias="ednoterole" uri="http://cv.iptc.org/newscodes/ednoterole" authority="https://iptc.org/" modified="2019-09-13T12:00:00+00:00">
