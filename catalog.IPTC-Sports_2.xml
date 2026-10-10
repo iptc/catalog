@@ -535,7 +535,7 @@
         <definition xml:lang="en-GB">Add-on ontology to IPTC Sport Schema, covering american football statistics.</definition>
     </scheme>
     <scheme alias="spbblstat" uri="https://sportschema.org/ontologies/baseball/">
-        <name xml:lang="en-GB">IPTC Sport Schema - Baseball statistics"@en ;</name>
+        <name xml:lang="en-GB">IPTC Sport Schema - Baseball statistics</name>
         <definition xml:lang="en-GB">Add-on ontology to IPTC Sport Schema, covering baseball statistics.</definition>
     </scheme>
     <scheme alias="spbkbstat" uri="https://sportschema.org/ontologies/basketball/">
