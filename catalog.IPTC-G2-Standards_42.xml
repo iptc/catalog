@@ -746,7 +746,7 @@
         <note xml:lang="en-GB">Body owning this vocabulary: W3C - www.w3.org</note>
     </scheme>
     <scheme alias="rdfs" uri="http://www.w3.org/2000/01/rdf-schema#" authority="https://www.w3.org/" modified="2026-10-21T12:00:00+00:00">
-        <name xml:lang="en-GB">Resource Description Framework (RDF)</name>
+        <name xml:lang="en-GB">RDF Schema</name>
         <note xml:lang="en-GB">Body owning this vocabulary: W3C - www.w3.org</note>
     </scheme>
     <scheme alias="skos" uri="http://www.w3.org/2004/02/skos/core#" authority="https://www.w3.org/" modified="2021-09-24T12:00:00+00:00">
