@@ -65,7 +65,7 @@
     v39 2023-11-24: added new CV tone, new CV geonameshttps
     v40 2024-10-29: added CVX ISO 3166-2, Google Privacy Sandbox, IAB taxonomies
     v41 2025-04-30: added PLUS vocabulary used in IPTC Photo Metadata. Re-ordered CVX vocabularies.
-    v42 2026-10-21: added evstatus (Event Status) for generic events
+    v42 2026-10-21: added eventstatus (Event Status) for generic events
                     added rdf, rdfs (RDF and RDF Schema)
                     added diqperformancelevel, diqevaluationsoftware, diqtargetname, diqbenchmarkname
 -->
@@ -236,7 +236,7 @@
         <definition xml:lang="en-GB">Indicates the class of a registration.</definition>
         <name xml:lang="en-GB">Event Registration Role</name>
     </scheme>
-    <scheme alias="eventstatus" uri="http://cv.iptc.org/newscodes/eventstatus/" authority="https://iptc.org/" modified="2024-11-25T12:00:00+00:00">
+    <scheme alias="eventstatus" uri="http://cv.iptc.org/newscodes/eventstatus/" authority="https://iptc.org/" modified="2026-10-21T12:00:00+00:00">
         <definition xml:lang="en-GB">Indicates the current status of an event.</definition>
         <name xml:lang="en-GB">Event Status</name>
     </scheme>
