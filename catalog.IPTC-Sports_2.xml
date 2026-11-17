@@ -350,7 +350,7 @@
 
     <scheme alias="sphorposition" uri="http://cv.iptc.org/newscodes/sphorposition/">
         <definition xml:lang="en-GB">Positions in horse racing.</definition>
-        <name xml:lang="en-GB">Horse Racinbg Positions</name>
+        <name xml:lang="en-GB">Horse Racing Positions</name>
     </scheme>
 
 	<!-- Sport concepts for Ice Hockey -->
